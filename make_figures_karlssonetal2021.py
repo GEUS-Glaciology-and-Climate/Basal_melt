@@ -18,7 +18,7 @@ from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 
 
 #load file of heat sources - can be downloaded from  https://doi.org/10.22008/FK2/PLNUEO as heatsources_Karlssonetal2021.nc
-filename='D:\\backup\\projects\\PROMICE\\Basal_melt\\heatsources_Karlssonetal2021.nc'
+filename='heatsources.nc'
 ds=nc.Dataset(filename)
 
 #Coordinate system information in meta-data. Projection polar_stereographic, epsg:3413
